@@ -1,6 +1,6 @@
 # Github Actions katas
 
-[![Super-Linter](https://github.com/guldmand/Github-Actions-Training/actions/workflows/super-linter.yaml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Super-Linter](https://github.com/guldmand/Github-Actions-Training/actions/workflows/super-linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## Introduction
 
