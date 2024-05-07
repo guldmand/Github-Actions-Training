@@ -3,7 +3,7 @@ on: push
 env: # Set the secret as an input
   docker_username: ${{ github.actor }} 
   docker_password: ${{ secrets.GITHUB_TOKEN }}
-  GIT_COMMIT: ${{ github.event.head_commit.message }} # Retrieve commit message
+  GIT_COMMIT: ${{ github.sha }} # Retrieve commit message
 jobs:
   Build:
     runs-on: ubuntu-latest
